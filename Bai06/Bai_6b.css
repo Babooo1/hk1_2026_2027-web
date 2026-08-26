@@ -1,0 +1,70 @@
+.title{
+    margin-bottom: 30px;
+}
+.contact_us{
+    width: 635px;
+    height: 480px;
+    border: 1px solid rgb(27, 51, 237);
+    margin: 0 auto;
+    padding: 3px;
+}
+.my_contact_us{
+    /* border: 1px solid red; */
+    margin-top: -20px;
+}
+.your_message{
+    width: 620px;
+    height: 220px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+.p_your_message{
+    width: 100px;
+    height: 18px;
+    /* border: 1px solid red; */
+    margin-top: -10px;
+    background-color: white;
+}
+.message_group{
+    /* border: 1px solid red; */
+    margin-top: -27px;
+}
+#to{
+    margin-left: 54px;
+}
+#email{
+    margin-top: 5px;
+}
+.my_message{
+    width: 56px;
+    height: 19px;
+    /* border: 1px solid red; */
+    display: block;
+    margin-top: 45px;
+}
+#message{
+    margin-left: 75px;
+    margin-top: -60px;
+}
+
+.found{
+    width: 620px;
+    height: 110px;
+    border: 1px solid black;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.p_your_found{
+    width: 130px;
+    height: 20px;
+    /* border: 1px solid red; */
+    margin-top: -10px;
+    background-color: white;
+}
+#hear{
+    width: 115px;
+}
+#my_checkbox{
+    margin-top: 7px;
+    margin-left: 85px;
+}

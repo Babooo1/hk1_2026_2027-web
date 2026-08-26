@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration From</title>
+    <link rel="stylesheet" href="Bai_6a.css">
+</head>
+<body>
+    <from>
+        <div class="registration">
+            <div class="jackson_Electronics_head">
+
+                <img src="../../image/Tuan1/bai6a.png" alt="img" id="icon">
+                <span id="Jackson">Jackson</span> <hr id="separation">
+                <span id="Electronics">Electronics</span>
+            
+            </div>
+
+            <div class="jackson_Electronics_Body">
+                <h2 id="title">Registration From</h2>
+                <span id="bottom_Title">Register your Jackson Electronics product here</span>
+                
+                <div class="first">
+                    <label for="first_Name">First Name:</label>
+                    <input type="text" name="first_Name" id="first_Name" required>
+
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" name="last_name" id="last_name" required> <br>
+
+                    <label for="Address_1">Address #1:</label>
+                    <input type="text" name="Address_1" id="Address_1" required> <br>
+
+                    <label for="Address_2">Address #2:</label>
+                    <input type="text" name="Address_2" id="Address_2" required> <br>
+
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city" required> 
+
+                    <label for="state">State:</label>
+                    <input type="text" name="state" id="state" required>
+
+                    <label for="zip">Zip:</label>
+                    <input type="text" name="zip" id="zip" required><br>
+
+                    <label for="country">Country:</label>
+                    <input type="text" name="country" id="country" placeholder="United States" required>
+                    <hr class="hr">
+                </div>
+                
+                <div class="between">
+                    <label for="product">Product:</label>
+                    <select name="product" id="product">
+                        <option value="1">ScanMaster</option>
+                        <option value="2">Scan</option>
+                        <option value="3">Scan Product</option>
+
+                    </select><br>
+                    <label for="date_Purchased">Date Purchased:</label>
+                    <input type="number" name="date_Purchased" id="date_Purchased" min="1" max="31" required><br>
+
+                    <label for="serial">Serial #:</label>
+                    <input type="text" name="serial" id="serial" required><br>
+
+                    <label for="user_for">User for:</label>
+                    <input type="radio" name="user_for" id="home">
+                    <label for="home">Home</label>
+                    <input type="radio" name="user_for" id="educational">
+                    <label for="educational">Educational Institution</label><br>
+                    <input type="radio" name="user_for" id="business" checked>
+                    <label for="business">Business</label>
+                    <input type="radio" name="user_for" id="other">
+                    <label for="other">Other</label><br>
+                    <input type="radio" name="user_for" id="government">
+                    <label for="government">Government</label><br>
+
+                    <label for="system">System (check all that apply):</label>
+                    <input type="checkbox" name="system" id="windows">
+                    <label for="windows">Winsdows</label>
+                    <input type="checkbox" name="system" id="unix">
+                    <label for="unix">UNIX</label><br>
+                    <input type="checkbox" name="system" id="macintosh">
+                    <label for="macintosh">Macintosh</label>
+                    <input type="checkbox" name="system" id="Other">
+                    <label for="Other">Other</label>
+                    <hr class="hr">
+                </div>
+
+                <div class="last">
+                    <label for="comments" id="cmt">Comments?:</label>
+                    <textarea name="comments" id="comments" cols="30" rows="10" ></textarea> 
+                </div>
+                
+                <input type="submit" value="Click to register" class="submit">
+                <input type="submit" value="Click to cancel">
+            
+            </div>
+
+        </div>
+                
+    </from>
+    
+    
+</body>
+</html>

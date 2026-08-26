@@ -1,0 +1,9 @@
+
+.Bai02 {
+    width: 900px;                             /* Chiều rộng của khung */
+    margin: 30px auto;                      /*  Căn giữa khung ra giữa trang */
+    padding: 20px 30px;                      /* Khoảng cách từ viền vào chữ bên trong */
+    background-color: white;              /* Màu nền trắng */
+    border: 1px solid blue;                /* Đường viền mỏng màu xám */
+    /* box-shadow: 0 5px 15px rgba(109, 107, 107, 0.15); */
+}

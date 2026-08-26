@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+    <link rel="stylesheet" href="Bai_6a.css">
+    <style>
+        .date{
+            width: 230px;
+            height: 350px;
+            border: 1px solid blue;
+            margin: 70px auto 0px;
+            padding: 5px;
+        }
+    </style>
+    
+</head>
+<body>
+    <from>
+        <div class="date">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="telephone_Number">Telephone Number:</label><br>
+            <input type="tel" id="telephone_Number" name="telephone_Number" pattern="[0-9]{10}" required><br><br>
+            
+            <label for="email">Email:</label><br>
+
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="favorite_color">Favorite Color</label><br>
+            <input type="color" id="favorite_color" name="favorite_color"><br><br>
+
+            <label for="date_of_birth">Date of Birth:</label><br>
+            <input type="date"><br><br>
+
+            <input type="submit" value="Submit">
+
+        </div>
+    </from>
+</body>
+</html>

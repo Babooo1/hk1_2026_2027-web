@@ -1,0 +1,31 @@
+.home{
+    width: 895px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.index{
+    width: 1195px;
+    border: 1px solid blue;
+    margin: 0 auto;
+}
+.hyperlink{
+    color: black;
+    text-decoration: none;
+}
+
+.member{
+    border: 1px solid black;
+    font-size: 14.5px;
+    padding: 4px;
+}
+
+.classes{
+    width: 1015px;
+    border: 1px solid black;
+    margin: 0 auto;
+
+}

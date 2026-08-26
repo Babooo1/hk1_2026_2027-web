@@ -1,0 +1,42 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.my_body{
+    width: 900px;
+    height: 700px;
+    border: 1px solid black;
+    margin: 0 auto;
+    
+}
+.image_logo{
+    width: 200px;
+}
+.image_smith{
+    /* border: 1px solid red; */
+    width: 195px;
+    height: 250px;
+    display: block;
+    margin-left: 660px; 
+}
+.title{
+    width: 695px;
+    color: RGB(185,123,110);
+    margin-left: 205px;
+    margin-top: -50px;
+}
+.Group_1{
+    width: 625px;
+    /* border: 1px solid red; */
+    margin-top: -250px;
+    margin-left: 5px;
+}
+.Group_2{
+    width: 890px;
+    /* border: 1px solid red; */
+    color: #000;
+    margin-top: -10px;
+    margin-left: 5px;    
+}
+
+
+

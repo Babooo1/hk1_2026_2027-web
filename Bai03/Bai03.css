@@ -1,0 +1,37 @@
+.brown{
+    color: brown;
+}
+.home{
+    width: 775px;
+    border: 1px solid black;
+    padding: 7px;
+    margin: 0 auto;
+}
+.slide{
+    width: 775px;
+    border: 1px solid black;
+    padding: 4px;
+    margin: 0 auto;
+}
+.Slide_top{
+    width: 500px;
+    height: 130px;
+}
+.console{
+    width: 40px;
+    height: 40px;
+}
+.piture{
+    width: 70px;
+    height: 40px;
+    margin-top: -3px;
+}
+.piture_Big{
+    width: 510px;
+    height: 260px;
+}
+.text_Bottom{
+    display: block;
+    font-size: 10px;
+    padding-left: 35px;
+}
